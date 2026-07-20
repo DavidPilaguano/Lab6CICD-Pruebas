@@ -10,7 +10,7 @@ describe('Pruebas de la función factorial', () => {
     });
 
     test('El factorial de 5 debe ser 120', () => {
-        expect(factorial(5)).toBe(100);
+        expect(factorial(5)).toBe(120);
     });
 
     test('Debe generar un error con números negativos', () => {
